@@ -26,13 +26,13 @@ console.log('*** Winter sports ***');
 for(i = 0; i < winter_sports.length; i++) {
     console.log(winter_sports[i].join(': '));
 }
-console.log('');
-console.log('*** Summer sports ***');
+console.log(`
+*** Summer sports ***`);
 for(i = 0; i < summer_sports.length; i++) {
     console.log(summer_sports[i].join(': '));
 }
-console.log('');
-console.log('*** Fruits ***');
+console.log(`
+*** Fruits ***`);
 for(i = 0; i < fruits.length; i++) {
     console.log(fruits[i].join(': '));
 }
